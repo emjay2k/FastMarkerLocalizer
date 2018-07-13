@@ -23,6 +23,8 @@ Code to my dissertation "Design and evaluation of a camera-based indoor position
 * Since there is currently no auto-build process for this software, you will need c/c++ developer skills in order to successfully build this software on any other pi than mine. There is a list of packages that were installed on the pi I used to build this software, if you want to create a similar build environment. Be prepared to fix several compiler- and linker-related issues, since your system likely differs from mine.
 * Once you have compiled the program, you can take a look at the *.sh files used to execute the program.
 
+
+Here is what you have to do:
 1) login to the raspberry pi as user pi
 2) copy the sources to the target machine on a raspberry pi 1 (type A or B) running debian 8
 3) extract the sources of raspicam to /home/pi/fml/raspicam-0.1.3, apply the patch fml_raspicam-0.1.3.patch and compile raspicam
