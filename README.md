@@ -48,32 +48,32 @@ Code to my dissertation "Design and evaluation of a camera-based indoor position
 
 ## FAQ
 
-Q: Why isn't there a better build process?
-A: This software was written for my dissertation and the class names and API were in constant flux during development. This would have required continuous maintenance of the build process, which would have led to a lot of extra work.
+* Q: Why isn't there a better build process?
+* A: This software was written for my dissertation and the class names and API were in constant flux during development. This would have required continuous maintenance of the build process, which would have led to a lot of extra work.
 
-Q: Why do you not supply a binary?
-A: The code is supplied to help others comprehend the algorithms I adapted/invented in my PhD thesis. I created binaries for experimental purposes, but since they are compiled for a very specific environment and only operate on a Raspberry Pi model B (which is rare nowadays) you have to compile it yourself. There might also be legal issues I can dodge by not supplying any executable binary (the standard providing source code is freedom of speech bla bla).
+* Q: Why do you not supply a binary?
+* A: The code is supplied to help others comprehend the algorithms I adapted/invented in my PhD thesis. I created binaries for experimental purposes, but since they are compiled for a very specific environment and only operate on a Raspberry Pi model B (which is rare nowadays) you have to compile it yourself. There might also be legal issues I can dodge by not supplying any executable binary (the standard providing source code is freedom of speech bla bla).
 
-Q: Why is the code so ugly?
-A: The code is the result of a sequence of trial-and-error attempts at improving state of the art localization approaches. Ideally you would know exactly what and how to implement beforehand (and what not), but truth is, if you are still investigating what actually works and implement ideas while they are fresh, then you always have to make compromises between clear structure and implementation time. Since a priori you do not even know if your next idea is going to work or not, you favor quick-and-dirty code over a lot more wasted time. Another reason is, that runtime-critical parts of the code were optimized to achieve faster execution by replacing inefficient initial code with optimized faster code - this almost never looks good.
+* Q: Why is the code so ugly?
+* A: The code is the result of a sequence of trial-and-error attempts at improving state of the art localization approaches. Ideally you would know exactly what and how to implement beforehand (and what not), but truth is, if you are still investigating what actually works and implement ideas while they are fresh, then you always have to make compromises between clear structure and implementation time. Since a priori you do not even know if your next idea is going to work or not, you favor quick-and-dirty code over a lot more wasted time. Another reason is, that runtime-critical parts of the code were optimized to achieve faster execution by replacing inefficient initial code with optimized faster code - this almost never looks good.
 
-Q: Are you going to fix bugs/issues?
-A: No. If you wish to provide a better version of this code, I strongly recommend to fork the project and take it to another repository. As long as you abide to the license terms, you are welcome to do so.
+* Q: Are you going to fix bugs/issues?
+* A: No. If you wish to provide a better version of this code, I strongly recommend to fork the project and take it to another repository. As long as you abide to the license terms, you are welcome to do so.
 
-Q: I want to make a product out of it. Will you help me?
-A: No I have other more interesting issues to deal with - I will help neither for free nor if you offer money.
+* Q: I want to make a product out of it. Will you help me?
+* A: No I have other more interesting issues to deal with - I will help neither for free nor if you offer money.
 
-Q: May I use the sources in a research project?
-A: If you abide the license terms, you may. See LICENSE file for details.
+* Q: May I use the sources in a research project?
+* A: If you abide the license terms, you may. See LICENSE file for details.
 
-Q: May I use the sources in a commercial project?
-A: If you abide the license terms, you may. See LICENSE file for details.
+* Q: May I use the sources in a commercial project?
+* A: If you abide the license terms, you may. See LICENSE file for details.
 
-Q: I do not like the license terms for reason "X". What can I do?
-A: Then you must not use the sources. Sorry, this is as free as it is going to get. Take it or leave it.
+* Q: I do not like the license terms for reason "X". What can I do?
+* A: Then you must not use the sources. Sorry, this is as free as it is going to get. Take it or leave it.
 
-Q: I do not understand why/how a specific section of the code works.
-A: Read my dissertation: "Entwicklung und Evaluierung einer kamerabasierten Lokalisierungsmethode für Flurförderzeuge". It is available as a PDF (only in German) from the TUM library (https://mediatum.ub.tum.de/?id=1395267). If that doesn't help, analyze what happens :-)
+* Q: I do not understand why/how a specific section of the code works.
+* A: Read my dissertation: "Entwicklung und Evaluierung einer kamerabasierten Lokalisierungsmethode für Flurförderzeuge". It is available as a PDF (only in German) from the TUM library (https://mediatum.ub.tum.de/?id=1395267). If that doesn't help, analyze what happens :-)
 
-Q: I want to improve the localization algorithms. What can I do?
-A: See chapter 8 of my PhD thesis for some pointers (see link above)
+* Q: I want to improve the localization algorithms. What can I do?
+* A: See chapter 8 of my PhD thesis for some pointers (see link above)
