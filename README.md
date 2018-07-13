@@ -24,7 +24,7 @@ Code to my dissertation "Design and evaluation of a camera-based indoor position
 * Once you have compiled the program, you can take a look at the *.sh files used to execute the program.
 
 
-Here is what you have to do:
+### Here is what you have to do:
 1) login to the raspberry pi as user pi
 2) copy the sources to the target machine on a raspberry pi 1 (type A or B) running debian 8
 3) extract the sources of raspicam to /home/pi/fml/raspicam-0.1.3, apply the patch fml_raspicam-0.1.3.patch and compile raspicam
@@ -49,7 +49,6 @@ Here is what you have to do:
 3) there are some other example configs and scripts available in the FastMarkerLocalizer folder
 
 ## FAQ
----
 * Q: Why isn't there a better build process?
 * A: This software was written for my dissertation and the class names and API were in constant flux during development. This would have required continuous maintenance of the build process, which would have led to a lot of extra work.
 ---
