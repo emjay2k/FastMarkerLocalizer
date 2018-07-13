@@ -48,8 +48,8 @@ Code to my dissertation "Design and evaluation of a camera-based indoor position
 
 ## FAQ
 ---
-Q: Why isn't there a better build process?
-A: This software was written for my dissertation and the class names and API were in constant flux during development. This would have required continuous maintenance of the build process, which would have led to a lot of extra work.
+* Q: Why isn't there a better build process?
+* A: This software was written for my dissertation and the class names and API were in constant flux during development. This would have required continuous maintenance of the build process, which would have led to a lot of extra work.
 ---
 * Q: Why do you not supply a binary?
 * A: The code is supplied to help others comprehend the algorithms I adapted/invented in my PhD thesis. I created binaries for experimental purposes, but since they are compiled for a very specific environment and only operate on a Raspberry Pi model B (which is rare nowadays) you have to compile it yourself. There might also be legal issues I can dodge by not supplying any executable binary (the standard providing source code is freedom of speech bla bla).
