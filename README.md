@@ -5,12 +5,12 @@ Code to my dissertation "Design and evaluation of a camera-based indoor position
 
 * Raspberry Pi running Debian 8 (jessie) with gcc/g++ toolchain. Newer versions might work as well, but could require some adaption to the build process.
 * raspicam version 1.3: https://sourceforge.net/projects/raspicam/files/ (newer versions should work as well, but you will need to adapt the patch, which I only provide for version 1.3)
-* opencv library version 2.4.x
-* aruco library sources version 1.3
+* opencv library version 2.4.x: https://opencv.org/releases.html
+* aruco library sources version 1.3: https://sourceforge.net/projects/aruco/files/OldVersions/
 
 ## Notes
 
-* This program was a side-project of mine during my work as a scientific assistant at TUM (chair fml), which turned out to become my PhD topic. It is therefore only a technology demonstration and never received the attention required for industrial-grade software.
+* This program was a side-project of mine during my work as a scientific assistant at TUM (chair fml, see https://www.fml.mw.tu-muenchen.de), which turned out to become my PhD topic. It is therefore only a technology demonstration and never received the attention required for industrial-grade software.
 * The good news: this code is published as open source software. It is subject to the 3-Clause BSD license (see LICENSE file for details).
 * Now here is the catch:
   * Beware this is highly experimental software and was only intended for scientific investigation.
