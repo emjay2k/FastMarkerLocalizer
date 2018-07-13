@@ -78,4 +78,4 @@ Here is what you have to do:
 * A: Read my dissertation: "Entwicklung und Evaluierung einer kamerabasierten Lokalisierungsmethode für Flurförderzeuge". It is available as a PDF (only in German) from the TUM library (https://mediatum.ub.tum.de/?id=1395267). If that doesn't help, analyze what happens :-)
 ---
 * Q: I want to improve the localization algorithms. What can I do?
-* A: See chapter 8 of my PhD thesis for some pointers (see link above)
+* A: See chapter 8 of my PhD thesis for some pointers (see link above).
