@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<Input>0</Input>
+<Input_FramesPerSecond>30</Input_FramesPerSecond>
+<Input_Width>640</Input_Width>
+<Input_Height>480</Input_Height>
+<Pixel_Speedlimit>3.33</Pixel_Speedlimit>
+<Resize_Width>0</Resize_Width>
+<Resize_Height>0</Resize_Height>
+<Undistort>3</Undistort>
+<Show_Image>1</Show_Image>
+<X_Offset>-350.</X_Offset>
+<Y_Offset>1390.</Y_Offset>
+<Z_Offset>2152.</Z_Offset>
+<Angle_Offset>1.5707963267948966192313216916398</Angle_Offset>
+</opencv_storage>

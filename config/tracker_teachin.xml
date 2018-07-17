@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<Demo>0</Demo>
+<Evaluation>1</Evaluation>
+
+<Network>0</Network>
+<Network_Id>1</Network_Id>
+<Network_Ip>"localhost"</Network_Ip>
+<Network_Port>24191</Network_Port>
+
+<Mapping>1</Mapping>
+<Mapping_Startid>639</Mapping_Startid>
+<Mapping_Minmeasurements>10</Mapping_Minmeasurements>
+
+<Marker_Predict>1</Marker_Predict>
+<Tracker_Algorithm>"TRACK_KALMAN"</Tracker_Algorithm>
+<Tracker_Kalman_Rk_x>20</Tracker_Kalman_Rk_x>
+<Tracker_Kalman_Rk_theta>5.5e-07</Tracker_Kalman_Rk_theta>
+<Tracker_Kalman_Qk_x>1e-04</Tracker_Kalman_Qk_x>
+<Tracker_Kalman_Qk_theta>5.5e-07</Tracker_Kalman_Qk_theta>
+
+<Marker_Mode>"ARUCO_FID"</Marker_Mode>
+<Marker_Correct>0</Marker_Correct>
+<Split_Detection>0</Split_Detection>
+<Marker_Limit>100</Marker_Limit>
+<Marker_Normal_Size>500.</Marker_Normal_Size>
+<Marker_Tolerance>0.5</Marker_Tolerance>
+<Max_Error>0.5</Max_Error>
+<Min_Line_Quality>0.1</Min_Line_Quality>
+
+<Pose_Estimator>"POSE_ESTIMATOR_ITERATIVE"</Pose_Estimator>
+
+<Marker_Sizes type_id="opencv-matrix">
+<!-- make sure to update rows value to match the number of pairs in data -->
+  <rows>7</rows>
+  <cols>2</cols>
+  <dt>f</dt>
+  <data>
+  639. 233. 92. 389. 265. 389. 411. 389. 643. 389. 798. 389. 1022. 389.</data></Marker_Sizes>
+<!-- 639. 233. -->
+
+<Marker_forPos type_id="opencv-matrix">
+<!-- make sure to update rows value to match the number of pairs in data -->
+  <rows>12</rows>
+  <cols>1</cols>
+  <dt>i</dt>
+  <data>
+  92 184 265 346 411 475 551 735 798 861 927 1022</data></Marker_forPos>
+</opencv_storage>

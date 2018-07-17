@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<Input>0</Input>
+<!-- note: you must only have one <Input_Str> tag and have to comment the rest -->
+
+<!-- one 8course for some initial tests of the setup -->
+<Input_Str>"/pathToTestdataLocation/8course/1/%06d.png"</Input_Str>
+
+<!-- all courses shaped like figure 8 (fast driving) -->
+<!--<Input_Str>"/pathToTestdataLocation/8course/1/%06d.png" "/pathToTestdataLocation/8course/2/%06d.png" "/pathToTestdataLocation/8course/3/%06d.png" "/pathToTestdataLocation/8course/4/%06d.png" "/pathToTestdataLocation/8course/5/%06d.png" "/pathToTestdataLocation/8course/6/%06d.png" "/pathToTestdataLocation/8course/7/%06d.png" "/pathToTestdataLocation/8course/8/%06d.png" "/pathToTestdataLocation/8course/9/%06d.png" "/pathToTestdataLocation/8course/10/%06d.png"</Input_Str>-->
+
+<!-- all double cycles (realistic scenario) -->
+<!--<Input_Str>"/pathToTestdataLocation/doublecycle/1/%06d.png" "/pathToTestdataLocation/doublecycle/2/%06d.png" "/pathToTestdataLocation/doublecycle/3/%06d.png" "/pathToTestdataLocation/doublecycle/4/%06d.png" "/pathToTestdataLocation/doublecycle/5/%06d.png"</Input_Str>-->
+
+<!-- all dynamic data (8course and doublecycle) -->
+<!--<Input_Str>"/pathToTestdataLocation/8course/1/%06d.png" "/pathToTestdataLocation/8course/2/%06d.png" "/pathToTestdataLocation/8course/3/%06d.png" "/pathToTestdataLocation/8course/4/%06d.png" "/pathToTestdataLocation/8course/5/%06d.png" "/pathToTestdataLocation/8course/6/%06d.png" "/pathToTestdataLocation/8course/7/%06d.png" "/pathToTestdataLocation/8course/8/%06d.png" "/pathToTestdataLocation/8course/9/%06d.png" "/pathToTestdataLocation/8course/10/%06d.png" "/pathToTestdataLocation/doublecycle/1/%06d.png" "/pathToTestdataLocation/doublecycle/2/%06d.png" "/pathToTestdataLocation/doublecycle/3/%06d.png" "/pathToTestdataLocation/doublecycle/4/%06d.png" "/pathToTestdataLocation/doublecycle/5/%06d.png"</Input_Str>-->
+
+<!-- One teach-in course to test mapping (slow driving) -->
+<!--<Input_Str>"/pathToTestdataLocation/teachin/1/%06d.png"</Input_Str>-->
+<!--<Input_Str>"/pathToTestdataLocation/teachin/2/%06d.png"</Input_Str>-->
+
+<!-- noise measurement (just one) -->
+<!--<Input_Str>"/pathToTestdataLocation/noise/1/%06d.png"</Input_Str>-->
+
+<!-- noise measurement (all at once) -->
+<!--<Input_Str>"/pathToTestdataLocation/noise/1/%06d.png" "/pathToTestdataLocation/noise/2/%06d.png" "/pathToTestdataLocation/noise/3/%06d.png" "/pathToTestdataLocation/noise/4/%06d.png" "/pathToTestdataLocation/noise/5/%06d.png" "/pathToTestdataLocation/noise/6/%06d.png" "/pathToTestdataLocation/noise/7/%06d.png" "/pathToTestdataLocation/noise/8/%06d.png" "/pathToTestdataLocation/noise/9/%06d.png"</Input_Str>-->
+
+<Input_FramesPerSecond>32</Input_FramesPerSecond>
+<Input_Width>1392</Input_Width>
+<Input_Height>1040</Input_Height>
+<Pixel_Speedlimit>4.0</Pixel_Speedlimit>
+<Resize_Width>0</Resize_Width>
+<Resize_Height>0</Resize_Height>
+<Undistort>3</Undistort>
+<Show_Image>1</Show_Image>
+<X_Offset>-370.</X_Offset>
+<Y_Offset>1400.</Y_Offset>
+<Z_Offset>2096.</Z_Offset>
+<Angle_Offset>3.1415926535897932</Angle_Offset>
+</opencv_storage>

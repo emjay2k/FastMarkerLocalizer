@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<calibration>"calibration_pi3.xml"</calibration>
+<camera>"camera_pi3.xml"</camera>
+<marker>"marker_ceiling_ground_truth.xml"</marker>
+<marker_gt>"marker_ceiling_ground_truth.xml"</marker_gt>
+<tracker>"tracker.xml"</tracker>
+</opencv_storage>
